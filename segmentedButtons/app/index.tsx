@@ -14,6 +14,7 @@ export default function App() {
         {
           value: "walk",
           label: "Walking",
+          icon: 'walk',
           style: {
             borderRadius: 0,
           },
@@ -21,6 +22,7 @@ export default function App() {
         {
           value: "train",
           label: "Transit",
+          icon: 'train',
           style: {
             borderRadius: 0,
           },
@@ -28,6 +30,7 @@ export default function App() {
         {
           value: "drive",
           label: "Driving",
+          icon: 'car',
           style: {
             borderRadius: 0,
           },
