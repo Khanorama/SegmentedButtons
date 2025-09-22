@@ -10,8 +10,6 @@ export default function App() {
       <SegmentedButtons
         value={value}
         onValueChange={setValue}
-        density="medium"
-        theme={{ roundness: 0 }}
         buttons={[
           {
             value: 'walk',
